@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCCI IT Event</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="event-card">
+            <img src="image/img1.jpeg" alt="Event Banner" class="event-image">
+
+            <div class="event-content">
+                <h1 class="event-title">Tech Innovation Summit 2025</h1>
+                <p class="event-date">October 20, 2025</p>
+                <a href=https://maps.app.goo.gl/WFxYYxKcXTe14BNm8 class="event-location">alexandria</a>
+                <p class="event-description">
+                    Explore cutting-edge technologies and meet innovators shaping the future of AI, cybersecurity, and
+                    data science.
+                </p>
+                <button id="registerBtn1" class="register-btn">Register</button>
+            </div>
+        </section>
+
+        <section class="event-card">
+            <img src="image/img2.jpeg" alt="Event Banner" class="event-image">
+
+            <div class="event-content">
+                <h1 class="event-title">Tech Innovation Summit 2025</h1>
+                <p class="event-date">November 25, 2025 </p>
+                <a href="https://maps.app.goo.gl/pd5KP1ZiEhrbbTyf9" class="event-location">cairo</a>
+                <p class="event-description">
+                    Learn from top software engineers and IT leaders through workshops focused on cloud computing and
+                    DevOps best practices.
+                </p>
+                <button id="registerBtn2" class="register-btn">Register</button>
+            </div>
+        </section>
+
+        <section class="event-card">
+            <img src="image/img3.jpeg " alt="Event Banner" class="event-image">
+
+            <div class="event-content">
+                <h1 class="event-title">Tech Innovation Summit 2025</h1>
+                <p class="event-date">December 30, 2025</p>
+                <a href=https://maps.app.goo.gl/qQEZpLLxKnnjF3B48 class="event-location">prot said</a>
+                <p class="event-description">
+                    Dive into the world of startups and digital transformation, featuring interactive sessions and
+                    networking opportunities.
+                </p>
+                <button id="registerBtn3" class="register-btn">Register</button>
+            </div>
+        </section>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeBtn" class="close">&times;</span>
+            <h2>Register for the Event</h2>
+
+            <form id="registerForm" onsubmit="return submitForm()">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="text" id="email" placeholder="Your Email">
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="landing.js"></script>
+</body>
+
+</html>
